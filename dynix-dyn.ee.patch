@@ -1,0 +1,15 @@
+--- dynix.c~	2004-11-21 12:29:57.000000000 +0200
++++ dynix.c	2004-11-21 12:29:59.000000000 +0200
+@@ -360,7 +360,11 @@
+ /* Note: if both bind()-s failed it will use the default local ip from the route table so no problemo */
+  if(soket != 0) {
+    dbgtxt("Connecting: inet_addr() ");
+-   buf = gethostbyname("www.dynserv.ca");
++	 if (strcmp(usedomain, "dyn.ee") == 0) {
++	   buf = gethostbyname("dyn.ee");
++	 } else {
++	   buf = gethostbyname("www.dynserv.ca");
++	 }
+    if (buf) {
+     memcpy(&sckaddr.sin_addr,buf->h_addr_list[0],sizeof(struct in_addr));
+     dbgtxt("Connecting: htons()");
