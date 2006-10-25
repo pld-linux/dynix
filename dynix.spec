@@ -6,7 +6,7 @@ Release:	1
 Epoch:		0
 License:	GPL
 Group:		Applications/System
-Source0:	http://www.dyn.ee/software/dynix/%{name}%{version}.tgz
+Source0:	http://www.dyn.ee/wrapper/software/dynix/%{name}%{version}.tgz
 # Source0-md5:	2bdf63d7580143f6ccb431f954600afe
 Patch0:		%{name}-dyn.ee.patch
 URL:		http://www.dyn.ee/
