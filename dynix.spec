@@ -1,5 +1,5 @@
 Summary:	A dyn.ee client for *x operating systems
-Summary(pl):	Klient dyn.ee dla *ksowych systemów operacyjnych
+Summary(pl.UTF-8):   Klient dyn.ee dla *ksowych systemÃ³w operacyjnych
 Name:		dynix
 Version:	0.60
 Release:	1
@@ -18,11 +18,11 @@ dyn.ee and dynserv ddns service. Version updates are released whenever
 some bigger bugs are found and fixed or when dynserv introduces new
 features.
 
-%description -l pl
-Dynix zosta³ stworzony aby dostarczyæ wygodniejsze i bardziej
-elastyczne metody u¿ywania us³ug DDNS dyn.ee i dynserv. Uaktualnienia
-s± publikowane po znalezieniu i poprawieniu wiêkszych b³êdów oraz
-kiedy dynserv wprowadza nowe mo¿liwo¶ci.
+%description -l pl.UTF-8
+Dynix zostaÅ‚ stworzony aby dostarczyÄ‡ wygodniejsze i bardziej
+elastyczne metody uÅ¼ywania usÅ‚ug DDNS dyn.ee i dynserv. Uaktualnienia
+sÄ… publikowane po znalezieniu i poprawieniu wiÄ™kszych bÅ‚Ä™dÃ³w oraz
+kiedy dynserv wprowadza nowe moÅ¼liwoÅ›ci.
 
 %prep
 %setup -q -c
