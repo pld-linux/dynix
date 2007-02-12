@@ -1,5 +1,5 @@
 Summary:	A dyn.ee client for *x operating systems
-Summary(pl.UTF-8):   Klient dyn.ee dla *ksowych systemów operacyjnych
+Summary(pl.UTF-8):	Klient dyn.ee dla *ksowych systemów operacyjnych
 Name:		dynix
 Version:	0.60
 Release:	1
