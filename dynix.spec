@@ -26,7 +26,7 @@ kiedy dynserv wprowadza nowe możliwości.
 
 %prep
 %setup -q -c
-%patch0 -p0
+%patch -P0 -p0
 
 %build
 %{__cc} %{rpmcflags} -Wall %{name}.c -o %{name}
